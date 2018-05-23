@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SMSCentre</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Vitaly Efimenko</authors>
+    <licenseUrl>https://github.com/Vita7y/SMSCentre/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Vita7y/SMSCentre</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>It`s API adapted to access to the functionality to the 'SMSCentre' company.</description>
+    <copyright>AS IS</copyright>
+    <tags>SMSCentre</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\**" target="build" />
+  </files>
+</package>

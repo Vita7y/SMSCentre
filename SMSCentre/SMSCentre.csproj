@@ -47,7 +47,7 @@
     <Compile Include="SmsStatusResult.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="SMSC.nuspec" />
+    <None Include="SMSCentre.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

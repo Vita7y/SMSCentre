@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSCentre", "SMSCentre\SMSCentre.csproj", "{DBB167B5-3992-4680-B1CA-DC4190D8405A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_SMSCentre", "Test_SMSCentre\Test_SMSCentre.csproj", "{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBB167B5-3992-4680-B1CA-DC4190D8405A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB167B5-3992-4680-B1CA-DC4190D8405A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB167B5-3992-4680-B1CA-DC4190D8405A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB167B5-3992-4680-B1CA-DC4190D8405A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3DF5C2-8A38-4A03-86D7-8D463C917E47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FA7EE35-EC2C-4BC3-BD0C-4E0D922052B4}
+	EndGlobalSection
+EndGlobal

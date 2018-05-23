@@ -43,7 +43,7 @@ namespace Test_SMSCentre
             Assert.True(res is ISmsResult);
             Assert.True(res is SmsErrorResult);
             var smsRes = res as SmsErrorResult;
-            Assert.Equal(-7, smsRes.ErrorCode);
+            Assert.Equal(-7, smsRes.Status);
             Assert.NotEmpty(smsRes.Id);
         }
 
@@ -69,7 +69,7 @@ namespace Test_SMSCentre
             Assert.True(res is ISmsResult);
             Assert.True(res is SmsErrorResult);
             var smsRes = res as SmsErrorResult;
-            Assert.Equal(-3, smsRes.ErrorCode);
+            Assert.Equal(-3, smsRes.Status);
             Assert.Equal("11111111111", smsRes.Id);
         }
 

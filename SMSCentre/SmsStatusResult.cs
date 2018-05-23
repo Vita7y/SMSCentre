@@ -5,6 +5,8 @@ namespace SMSCentre
     public interface ISmsResult
     {
         string Id { get; }
+
+        int Status { get; }
     }
 
     public class SmsResult : ISmsResult
@@ -56,12 +58,12 @@ namespace SMSCentre
         public SmsErrorResult(string id, int error, string description)
         {
             Id = id;
-            ErrorCode = error;
+            Status = error;
             Description = description;
         }
         public string Id { get; }
 
-        public int ErrorCode { get; }
+        public int Status { get; }
 
         public string Description { get; }
 
